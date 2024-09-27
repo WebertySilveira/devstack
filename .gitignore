@@ -1,3 +1,4 @@
 config/mysql
 config/nginx/logs
 .idea/
+/vendor/

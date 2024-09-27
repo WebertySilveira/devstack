@@ -1,0 +1,14 @@
+{
+    "name": "webertysilveira/devstack",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Weberty Silveira de Sousa"
+        }
+    ],
+    "require": {}
+}
