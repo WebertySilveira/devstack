@@ -5,10 +5,22 @@
             "App\\": "app/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Weberty Silveira de Sousa"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "larastan/larastan": "*",
+        "friendsofphp/php-cs-fixer": "*"
+    },
+    "require": {
+        "ext-pdo": "*"
+    }
 }
