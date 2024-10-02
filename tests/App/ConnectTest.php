@@ -2,7 +2,7 @@
 
 namespace Tests\App;
 
-use App\Connect;
+use Src\Connect;
 use PHPUnit\Framework\TestCase;
 
 class ConnectTest extends TestCase

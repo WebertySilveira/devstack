@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace Src;
 
 use PDO;
 use PDOException;
@@ -17,7 +17,7 @@ class Connect
         try {
             $pdo = new PDO("mysql:host={$host};dbname={$db}", $user, $password);
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            return "Connected to MySQL successfully!";
+            return $pdo;
         } catch (PDOException $e) {
             return "Connection failed: " . $e->getMessage();
         }

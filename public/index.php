@@ -2,5 +2,5 @@
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-$app = new \App\Connect();
+$app = new \Src\Connect();
 $app->connection();
